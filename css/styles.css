@@ -1,7 +1,7 @@
 body {
-  font-family: 'Roboto', sans-serif;
   color: #434455;
-  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
 }
 
 ul,
@@ -11,6 +11,26 @@ ol {
 
 a {
   text-decoration: none;
+}
+
+.button {
+  font-family: inherit;
+}
+.button {
+  display: block;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
+.button:hover {
+  background-color: #404bbf;
 }
 
 .logo {
@@ -32,11 +52,11 @@ a {
 }
 
 .nav-link {
+  color: #2e2f42;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .contacts {
@@ -57,6 +77,87 @@ a {
   color: #404bbf;
 }
 
+.initial-section {
+  background-color: #2e2f42;
+  padding: 188px 0;
+}
+.initial-title {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  max-width: 496px;
+  margin: 0 auto;
+}
+
+.initial-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+  text-align: center;
+  max-width: 169px;
+}
+.advantages-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.advanteg-subtitle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.team-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.team-subtitle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-subject {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-subtitle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer,
 .page-footer {
   background-color: #2e2f42;
+}
+.footer-subtitle {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
