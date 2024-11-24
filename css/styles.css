@@ -24,6 +24,7 @@ a {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   cursor: pointer;
+  text-align: center;
   margin: 0 auto;
 }
 .button:hover,
@@ -88,6 +89,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   margin: 0 auto;
   color: #fff;
 }
@@ -101,7 +103,7 @@ a {
   color: #2e2f42;
 }
 
-.advantages-subtitle {
+.advanteg-subtitle {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -119,6 +121,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
@@ -129,6 +132,7 @@ a {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
 }
 .team-item {
@@ -141,6 +145,7 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
 
@@ -150,6 +155,7 @@ a {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
 }
