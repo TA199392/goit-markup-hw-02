@@ -14,7 +14,6 @@ a {
 }
 
 .button {
-  display: block;
   color: #ffffff;
   background-color: #4d5ae5;
   font-family: inherit;
@@ -24,6 +23,7 @@ a {
   letter-spacing: 0.04em;
   text-transform: capitalize;
   cursor: pointer;
+  text-align: center;
   margin: 0 auto;
 }
 .button:hover,
@@ -80,7 +80,6 @@ a {
 
 .initial-section {
   background-color: #2e2f42;
-  padding: 188px 0;
 }
 .initial-title {
   font-family: 'Roboto', sans-serif;
@@ -91,6 +90,19 @@ a {
   text-align: center;
   margin: 0 auto;
   color: #fff;
+}
+
+.advantages-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .advantages-title {
